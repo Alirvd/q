@@ -1,6 +1,6 @@
-FROM telethonArab/IqArab:slim-buster
+FROM Alirvd/iQthon:slim-buster
 
-RUN git clone https://github.com/telethonArab/iqthon.git /root/IqArab
+RUN git clone https://github.com/Alirvd/iQthon.git /root/IqArab
 RUN curl -sL https://deb.nodesource.com/setup_16.x | bash -
 RUN apt-get install -y nodejs
 RUN npm i -g npm
